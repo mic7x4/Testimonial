@@ -23,7 +23,7 @@ body{
 
 }
 .container{
-    padding:1rem;
+    padding:4rem;
     margin-top: 1rem;
     
 }
@@ -34,6 +34,13 @@ body{
     grid-template-areas:
      "profile1 profile1 profile2 profile3"
      "profile4 profile5 profile5 profile3";
+}
+.quotation{
+    background-image: url('/img/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: 90% top;
+    background-size: 10rem;
+
 }
 .profile1{
     grid-area: profile1;
